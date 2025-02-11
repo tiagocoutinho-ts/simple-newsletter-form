@@ -1,0 +1,79 @@
+
+body {
+   background-image: linear-gradient(270deg, rgb(80, 39, 89), black);
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   margin: auto;
+   padding: 60px;
+   margin: 50px;
+}
+
+.newstt {
+   color: rgb(226, 1, 242);
+}
+
+h2 {
+   font-family: 'Roboto', sans-serif;
+   font-size: 40px;
+   color: rgb(255, 255, 255);
+   margin-left: 10px;
+}
+
+p {
+   margin: 8px;
+   margin-bottom: 19px;
+   font-size: 30px;
+   font-family: "Lora", serif;
+   color: rgb(236, 242, 242);
+   margin-bottom: 40px;
+}
+
+form {
+   display: flex;
+   justify-content: flex-start;
+   margin-left: 9px;
+   gap: 0px;
+}
+
+input {
+   width: 400px;
+   height: 50px;
+   outline: none;
+   border: none;
+   font-size: 25px;
+   font-family: 'Roboto', sans-serif;
+   border-radius: 3px 0px 0px 3px;
+}
+
+button {
+   width: 120px;
+   height: 52px;
+   color: rgb(255, 255, 255);
+   background-color: rgb(47, 125, 222);
+   outline: none;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   font-size: 25px;
+   border-radius:  0px 3px 3px 0px;
+}
+
+.spam {
+   display: flex;
+   justify-content: start;
+   font-size: 10px;
+   background-color: transparent;
+   width: 395px;
+   margin-top: 30px;
+}
+
+.spam p {
+   padding: 8px;
+   font-size: 11px;
+   margin-top: 11px;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+}
